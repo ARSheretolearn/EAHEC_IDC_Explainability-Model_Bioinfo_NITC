@@ -1,0 +1,26 @@
+# EAHEC: Entity-Aware Hierarchical Explainable Coding
+# Requirements for G9_source_code.ipynb
+# Python >= 3.9 recommended
+
+# Deep learning
+torch>=2.0.0
+accelerate>=0.27.0
+
+# Transformers & NLP
+transformers>=4.38.0
+datasets
+scispacy
+spacy
+
+# Data & ML
+numpy
+pandas
+scikit-learn
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+
+# scispacy biomedical NER model (install separately — not on PyPI)
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
